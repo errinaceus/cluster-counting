@@ -1,4 +1,4 @@
 # cluster-counting
-The notebook for counting the number of  C2H2 domain clusters of different size in C2H2 proteins. It also counts total number of clusters in proteome, median number of C2H2 domains per protein and median cluster size.
-It is written to take as inputs iTOL-formatted .txt files from SMART database (http://smart.embl.de/smart/complete_tree.cgi?ID=ZnF_C2H2) and tsv-formatted files from InterPro/Uniprot database (https://www.ebi.ac.uk/interpro/entry/InterPro/IPR013087/taxonomy/uniprot/#table).
-Can be adapted to count any other clusters of protein domains
+The notebooks for counting the number of  C2H2 domain clusters of different size in C2H2 proteins (cluster_counting) and for analyzing the presence of conserved linkers between C2H2 domains (C2H2_linker_counting). It also counts total number of clusters in proteome, median number of C2H2 domains per protein and median cluster size. The linker counting notebook performs search of the presence of conserved motif TGEKP within linkers between C2H2 domains, counts the mean ratio of presence of these linkers within clusters of different size.
+Notebooks are written to take as inputs iTOL-formatted .txt files from SMART database (http://smart.embl.de/smart/complete_tree.cgi?ID=ZnF_C2H2) and tsv-formatted files from InterPro/Uniprot database (https://www.ebi.ac.uk/interpro/entry/InterPro/IPR013087/taxonomy/uniprot/#table). Linker counting also requires the presence of associated .fasta files with the same filenames as iTOL/tsv files.
+Can be adapted to count any other clusters of protein domains.
