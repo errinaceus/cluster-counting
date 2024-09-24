@@ -4,4 +4,5 @@ Notebooks are written to take as inputs iTOL-formatted .txt files from SMART dat
 Can be adapted to count any other clusters of protein domains.
 # References
 Bonchuk AN, Balagurov KI, Baradaran R, Boyko KM, Sluchanko NN, Khrustaleva AM, Burtseva AD, Arkova OV, Khalisova KK, Popov VO, Naschberger A, Georgiev PG. The Arthropoda-specific Tramtrack group BTB protein domains use previously unknown interface to form hexamers. Elife. 2024 Sep 2;13:e96832. doi: 10.7554/eLife.96832. 
+
 Bonchuk AN, Georgiev PG. C2H2 proteins: Evolutionary aspects of domain architecture and diversification. Bioessays. 2024 Aug;46(8):e2400052. doi: 10.1002/bies.202400052.
